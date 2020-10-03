@@ -1,0 +1,48 @@
+{
+	"details":{
+		"name":"Sandeep kumar",
+		"image":"profile.jpg",
+		"email":"sndeep2siripurapu@gmail.com",
+		"number":"+91-9876654323",
+		"address":"vijayawada"
+	},
+
+	"careerobjective":{
+		"info1":"To become software developer"
+	},
+	"educationalqualification":[
+		{
+			"institute":"kbn degree college",
+			"degree":"bsc(computers)",
+			"passoutyear":"2019",
+			"percentage":"85%"
+		},
+		{
+			"institute":"kbn jr college",
+			"degree":"Intermediate",
+			"passoutyear":"2016",
+			"percentage":"76%"
+		},
+		{
+			"institute":"s.k.p.v.v hindu high school",
+			"degree":"SSC",
+			"passoutyear":"2014",
+			"percentage":"65%"
+		}
+	],
+
+	"techinicalskills":[
+		{
+			"title":"programming languages",
+			"info":["c,c++,java,python,php,.net"]
+		},
+		{
+			"title":"Databases",
+			"info":["Oracle,sql,mysql"]
+		},
+		{
+			"title":"Operating systems",
+			"info":["Unix,windows,Ubuntu,Dos"]
+		}
+	]
+}
