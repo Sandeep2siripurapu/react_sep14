@@ -1,0 +1,161 @@
+
+.child1{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 30%;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 10%;
+}
+
+.child2{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 65%;
+	font-size: 22px;
+	border-radius: 10%;
+}
+
+.parent{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+}
+img{
+	width: 80%;
+	border: 2px solid black;
+	border-radius: 50%;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px){
+.child1{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 94%;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 10%;
+	background-color:lime;
+}
+
+.child2{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 90%;
+	font-size: 22px;
+	border-radius: 10%;
+	background-color: skyblue;
+}
+
+.parent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+}
+img{
+	width: 80%;
+	border: 2px solid black;
+	border-radius: 50%;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px red;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px){
+.child1{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 94%;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 10%;
+	background-color:orange;
+}
+
+.child2{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 90%;
+	font-size: 22px;
+	border-radius: 10%;
+	background-color: lightblue;
+}
+
+.parent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+}
+img{
+	width: 80%;
+	border: 2px solid black;
+	border-radius: 50%;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px red;
+}
+
+}
+@media only screen and (min-width:650px) and (max-width:900px){
+.child1{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 94%;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 10%;
+	background-color:lime;
+}
+
+.child2{
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 90%;
+	font-size: 22px;
+	border-radius: 10%;
+	background-color: lightblue;
+}
+
+.parent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+}
+img{
+	width: 80%;
+	border: 2px solid black;
+	border-radius: 50%;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px red;
+}
+
+}
